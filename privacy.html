@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Gold Apps Labz</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --gold: #FFD700;
+            --bg-deep: #0B0F1A;
+            --bg-card: #161B2C;
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --glass: rgba(255, 255, 255, 0.03);
+            --border: rgba(255, 255, 255, 0.08);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        .bg-glow {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at 50% -20%, #1e293b 0%, #0b0f1a 100%);
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 24px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--gold);
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .back-link:hover { transform: translateX(-5px); }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--gold) 0%, #FFF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .policy-content {
+            background: var(--bg-card);
+            border-radius: 28px;
+            padding: 50px;
+            border: 1px solid var(--border);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            color: var(--gold);
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        h2::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: var(--gold);
+            border-radius: 2px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            color: var(--text-secondary);
+        }
+
+        li { margin-bottom: 10px; }
+
+        a {
+            color: var(--gold);
+            text-decoration: none;
+        }
+
+        a:hover { text-decoration: underline; }
+
+        .details-box {
+            background: var(--glass);
+            padding: 25px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            margin-bottom: 40px;
+        }
+
+        .details-box p {
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .details-box strong { color: var(--text-primary); }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 600px) {
+            .policy-content { padding: 30px; }
+            h1 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="bg-glow"></div>
+
+<div class="container">
+    <header>
+        <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last updated: October 30, 2024</p>
+    </header>
+
+    <div class="policy-content">
+        <div class="details-box">
+            <p><strong>App Name:</strong> GPS Map Camera: Geotag Photo</p>
+            <p><strong>Package Name:</strong> com.notescamera.locationonphoto</p>
+            <p><strong>Developer Name:</strong> Gold Apps Labz</p>
+            <p><strong>Contact Email:</strong> goldappslabz@gmail.com</p>
+        </div>
+
+        <p>This Privacy Policy describes how <strong>Gold Apps Labz</strong> ("we", "us", or "our") handles your information when you use the <strong>GPS Map Camera: Geotag Photo</strong> mobile application (the "App").</p>
+
+        <h2>1. Information We Collect</h2>
+        <p><strong>Location Data:</strong> The App requires access to your device's GPS location to provide its core functionality: stamping location data onto your photos. This data is processed locally on your device for the purpose of geotagging.</p>
+        <p><strong>Camera and Storage:</strong> We require access to your camera to take photos and storage to save the stamped images. These files remain on your device unless you choose to share them manually.</p>
+        <p><strong>Device Information:</strong> We may collect non-personal information such as device model, OS version, and unique identifiers for advertising and analytics purposes through third-party SDKs (AdMob, Unity Ads).</p>
+
+        <h2>2. Third-Party Services</h2>
+        <p>The App uses third-party services that may collect information used to identify you:</p>
+        <ul>
+            <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">AdMob</a></li>
+            <li><a href="https://unity3d.com/legal/privacy-policy" target="_blank">Unity Ads</a></li>
+        </ul>
+
+        <h2>3. Data Retention and Deletion</h2>
+        <p>Since we do not collect personal information on our own servers, we do not retain your data. Any data generated (like photos) is stored on your device and is deleted if you delete the files or uninstall the App.</p>
+
+        <h2>4. Children’s Privacy</h2>
+        <p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.</p>
+
+        <h2>5. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <strong>goldappslabz@gmail.com</strong>.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gold Apps Labz. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
